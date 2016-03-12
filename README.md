@@ -6,7 +6,7 @@ more than once: where can I get good data?  The purpose of this site is to
 provide an answer for this question! This site currently contains several examples 
 for the traffic assignment problem.  Suggestions and additional data are always welcome.
 
-This repository is an update Dr. Hillel Bar-Gera's [TNTP](http://www.bgu.ac.il/~bargera/tntp).
+This repository is an update to Dr. Hillel Bar-Gera's [TNTP](http://www.bgu.ac.il/~bargera/tntp).
 
 # Current Network Test Problems
 
@@ -60,7 +60,7 @@ responsible for the content or the correctness of the datasets.
 # The Traffic Assignment Problem
 
 The Traffic Assignment Problem is one of the most basic problems in transportation research. 
-Theoretical background can be found in ìThe Traffic Assignment Problem ñ Models and Methodsî 
+Theoretical background can be found in ‚ÄúThe Traffic Assignment Problem ‚Äì Models and Methods‚Äù 
 by Michael Patriksson, VSP 1994, as well as in many other references.
 
 # TNTP Data format 
@@ -70,8 +70,8 @@ with each row terminated by a semicolon.  The files have the following format:
    In the some networks (like Sioux-Falls) it is equal to 1, indicating 
    that traffic can move through all nodes, including zones. In other networks when traffic is not 
    allow to go through zones, the zones are numbered 1 to n and the `<FIRST THRU NODE>` is set to n+1.
- - Comment lines start with ë~í.
- - Network files ñ one line per link; links are directional, going from ìinit nodeî to ìterm nodeî.
+ - Comment lines start with ‚Äò~‚Äô.
+ - Network files ‚Äì one line per link; links are directional, going from ‚Äúinit node‚Äù to ‚Äúterm node‚Äù.
      - Link travel time = free flow time * ( 1 + B * (flow/capacity)^Power ).
      - Link generalized cost = Link travel time + toll_factor * toll + distance_factor * distance
      - The network files also contain a "speed" value for each link. In some cases the "speed" values 
@@ -89,11 +89,11 @@ with each row terminated by a semicolon.  The files have the following format:
        - Speed limit
        - Toll
        - Link Type
- - Trip tables ñ An Origin label and then Origin node number, followed by Destination node numders and OD flow 
+ - Trip tables ‚Äì An Origin label and then Origin node number, followed by Destination node numders and OD flow 
 
 ```
 Origin origin#
-destination# , OD flow ; Ö..
+destination# , OD flow ; ‚Ä¶..
 ```
 
 # Other Related Projects 
@@ -120,7 +120,7 @@ destination# , OD flow ; Ö..
  - Change file names to uniform convention with *.txt, April 12, 2007.
  - Change the toll factors in the Chicago networks, August 27, 2007. (The new toll factors are the ones originally used in my own papers. For a certain period the toll factors indicated here were zero, so it there may be publications reporting results with zero toll factors.)
  - Add optimal OF values for different networks, August 27, 2007.
- - Add link lengths from Morlokís report to the Sioux Falls network. November 19, 2007.
+ - Add link lengths from Morlok‚Äôs report to the Sioux Falls network. November 19, 2007.
  - Update Berlin area networks data, and added converted version for TNTP format. January 15, 2008.
  - Austin data added. January 12, 2011.
  - Added explanation of the units of OD flows for Sioux Falls. March 31, 2011.
