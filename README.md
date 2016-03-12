@@ -8,6 +8,30 @@ for the traffic assignment problem.  Suggestions and additional data are always 
 
 This repository is an update Dr. Hillel Bar-Gera's [TNTP](http://www.bgu.ac.il/~bargera/tntp).
 
+# Current Network Test Problems
+
+  1. Anaheim
+  1. Austin
+  1. Barcelon
+  1. Berlin-Center
+  1. Berlin-Friedrichshain
+  1. Berlin-Mitte-Center
+  1. Berlin-Mitte-Prenzlauerberg-Friedrichshain-Center
+  1. Berlin-Prenzlauerberg-Center
+  1. Berlin-Tiergarten
+  1. Birmingham-England
+  1. Braess-Example
+  1. chicago-regional
+  1. Chicago-Sketch
+  1. GoldCoast
+  1. Hessen-Asymmetric
+  1. Philadelphia
+  1. SiouxFalls
+  1. Sydney
+  1. Terrassa-Asymmetric
+  1. Winnipeg
+  1. Winnipeg-Asymmetric
+
 # How To Download and Add Networks  
 
 Each individual network and related files is stored in a separate folder. There
@@ -18,7 +42,9 @@ are a number of ways to download the networks and related files:
       entire repository to your computer.
 
 To add a network, create an issue, which will notify the TransportationNetworks team.  We will then 
-reply to coordinate adding the network to the site.  If you are interested in contributing in a more 
+reply to coordinate adding the network to the site.  Make sure to create a README in 
+[Markdown](https://guides.github.com/features/mastering-markdown/) for your 
+network test problem as well.  If you are interested in contributing in a more 
 significant role, please get in touch with some of the team members.  Thanks!
   
 # License 
