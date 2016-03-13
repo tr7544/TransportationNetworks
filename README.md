@@ -42,10 +42,11 @@ are a number of ways to download the networks and related files:
       entire repository to your computer.
 
 To add a network, create an issue, which will notify the TransportationNetworks team.  We will then 
-reply to coordinate adding the network to the site.  Make sure to create a README in 
+reply to coordinate adding your network to the site.  Make sure to create a README in 
 [Markdown](https://guides.github.com/features/mastering-markdown/) for your 
-network test problem as well.  If you are interested in contributing in a more 
-significant role, please get in touch with some of the team members.  Thanks!
+addition as well.  Take a look at some of the existing README files in the existing network folders to see what 
+is expected.  If you are interested in contributing in a more significant role, please get in touch with 
+the team.  Thanks!
   
 # License 
 
