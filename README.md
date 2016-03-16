@@ -7,6 +7,8 @@ provide an answer for this question! This site currently contains several exampl
 for the traffic assignment problem.  Suggestions and additional data are always welcome.
 
 This repository is an update to Dr. Hillel Bar-Gera's [TNTP](http://www.bgu.ac.il/~bargera/tntp).
+As of May 1, 2016, data updates will be made only here, and not in the original website.
+
 
 # Current Network Test Problems
 
