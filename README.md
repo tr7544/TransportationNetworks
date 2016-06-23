@@ -100,7 +100,7 @@ destination# , OD flow ; …..
 ```
 
 # Other Related Projects 
-
+ - [TRB Network Modeling Committee](http://trb-networkmodeling.org/)
  - [Frank-Wolfe algorithm](http://www.bgu.ac.il/~bargera/tntp/FW.zip) that demonstrates how to read these 
    data formats and runs a FW assignment.  The header file "stdafx.h" is for Microsoft Visual C (MSVC) compiler. On 
    Unix and other compilers it can be simply omitted.
